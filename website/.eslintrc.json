@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "react-app",
+    "prettier",
+    "prettier/react",
+    "plugin:jsx-a11y/recommended"
+  ],
+
+  "plugins": ["react-hooks", "jsx-a11y", "prettier"],
+
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "prettier/prettier": "error",
+    "jsx-a11y/no-autofocus": [
+      "warn",
+      {
+        "ignoreNonDOM": true
+      }
+    ]
+  }
+}

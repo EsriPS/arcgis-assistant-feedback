@@ -1,0 +1,113 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* https://esri.github.io/calcite-colors/ */
+
+@import 'https://webapps-cdn.esri.com/CDN/fonts/v2.0.0/fonts.css';
+
+:root {
+  --ifm-color-primary: #68aa67;
+  --ifm-color-primary-dark: #548953;
+  --ifm-color-primary-darker: #3f683f;
+  --ifm-color-primary-darkest: #2b472a;
+  --ifm-color-primary-light: #81b880;
+  --ifm-color-primary-lighter: #9ac699;
+  --ifm-color-primary-lightest: #b2d4b2;
+  --ifm-code-font-size: 95%;
+  --assistant-color: #35ac46;
+
+  --ifm-color-info: #2890ce;
+  --ifm-color-secondary: #dfdfdf;
+  --ifm-color-danger: #e65240;
+  --ifm-color-warning: #f9e54e;
+  --ifm-color-success: #50ba5f;
+  --ifm-alert-color: #1c1e21;
+
+  --ifm-font-family-base: 'Avenir Next', 'Avenir', 'Helvetica Neue', sans-serif;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+/* Layout */
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.flex-centered {
+  align-items: center;
+  justify-items: center;
+}
+
+.flex-col-left {
+  justify-content: left;
+  align-items: flex-start;
+  text-align: left;
+}
+
+/* Homepage-specific */
+
+.hero1-bg {
+  background-image: url('../../static/img/hero-bg-01.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+/* Width, padding, margins */
+
+.pad-5 {
+  padding: 5%;
+}
+
+.width-35 {
+  width: 35%;
+}
+
+.width-65 {
+  width: 65%;
+}
+
+.width-75 {
+  width: 75%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* Typography */
+
+.ital {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.slim {
+  font-weight: 400 !important;
+}
+
+a.white-links {
+  color: white !important;
+  text-decoration: underline;
+}
