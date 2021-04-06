@@ -28,6 +28,8 @@
   --ifm-alert-color: #1c1e21;
 
   --ifm-font-family-base: 'Avenir Next', 'Avenir', 'Helvetica Neue', sans-serif;
+  --ifm-heading-font-weight: 600;
+  --ifm-font-weight-bold: 600;
 }
 
 .docusaurus-highlight-code-line {

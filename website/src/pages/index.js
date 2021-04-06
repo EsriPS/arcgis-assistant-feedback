@@ -51,10 +51,7 @@ export default function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
-    <Layout
-      title="Home"
-      description="A Swiss Army Knife for ArcGIS"
-    >
+    <Layout title="Home" description="A Swiss Army Knife for ArcGIS">
       <div className="alert alert--danger text--center" role="alert">
         {/* TODO: Fix this close button */}
         {/* <button aria-label="Close" className="close" type="button">
@@ -78,9 +75,7 @@ export default function Home() {
           <div className="flex-col-left width-65 pad-5 flex-col">
             <h1 className="hero__title slim">{siteConfig.title}</h1>
             <p>
-              <span className="hero__subtitle ital">
-                {siteConfig.tagline}: Efficiently manage your ArcGIS content.
-              </span>
+              <span className="hero__subtitle ital">{siteConfig.tagline}</span>
             </p>
 
             <div className={styles.buttons}>
@@ -98,7 +93,7 @@ export default function Home() {
               <a
                 style={{ marginTop: '1.5rem' }}
                 className={clsx(
-                  'button button--outline button--secondary button--lg',
+                  'button button--outline button--secondary button--link button--lg',
                   styles.getStarted
                 )}
                 href="https://assistant.esri-ps.com"

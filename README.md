@@ -4,12 +4,11 @@
   <span>A Swiss Army Knife for ArcGIS</span>
 </p>
 
-#### If you're looking to submit feedback or chat with the ArcGIS Assistant community, you've come to the right place!
-
-💬 Chat with the community here: https://github.com/EsriPS/arcgis-assistant-feedback/discussions
-
-⁉️ Open an issue here: https://github.com/EsriPS/arcgis-assistant-feedback/issues/new/choose
-
-If you're looking for the ArcGIS Assistant app itself, you can find it here: https://assistant.esri-ps.com
-
-We also have a user guide: https://guide.assistant.esri-ps.com
+<table>
+  <tr>
+    <td><h3><a href="https://github.com/EsriPS/arcgis-assistant-feedback/issues/new/choose">Submit an Issue</a></h3></td>
+    <td><h3><a href="https://github.com/EsriPS/arcgis-assistant-feedback/discussions">Join the Discussion</a></h3></td>
+    <td><h3><a href="https://guide.assistant.esri-ps.com">Read the User Guide</a></h3></td>
+    <td><h3><a href="https://assistant.esri-ps.com">Open the App</a></h3></td>
+  </tr>
+</table>

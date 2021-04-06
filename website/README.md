@@ -1,4 +1,10 @@
-# Website
+# ArcGIS Assistant User Guide
+
+This is the ArcGIS Assistant User Guide website. Feel free to request changes by submitting a Pull Request!
+
+Below, you'll find info on how to develop the website locally.
+
+## Website
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
