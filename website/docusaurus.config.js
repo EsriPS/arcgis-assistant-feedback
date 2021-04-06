@@ -6,7 +6,7 @@ module.exports = {
 
   title: 'ArcGIS Assistant User Guide',
   tagline: 'A Swiss Army Knife for ArcGIS',
-  url: 'https://esrips.github.io/arcgis-assistant-website',
+  url: 'https://guide.assistant.esri-ps.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -39,7 +39,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://test.assistant.aws.esri-ps.com/',
+          href: 'https://assistant.esri-ps.com/',
           label: 'Sign in to Assistant',
           position: 'left',
           class: 'bold navbar__item navbar__link',
@@ -94,7 +94,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/esrips/arcgis-assistant-website/edit/main/',
+            'https://github.com/esrips/arcgis-assistant-feedback/edit/main/website/',
         },
         // blog: {
         //   showReadingTime: true,

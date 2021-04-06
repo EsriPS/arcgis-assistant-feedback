@@ -101,7 +101,7 @@ export default function Home() {
                   'button button--outline button--secondary button--lg',
                   styles.getStarted
                 )}
-                href="https://test.assistant.aws.esri-ps.com"
+                href="https://assistant.esri-ps.com"
               >
                 Go to ArcGIS Assistant
               </a>
