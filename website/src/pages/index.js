@@ -51,10 +51,7 @@ export default function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
-    <Layout
-      title={`Assistant Guide`}
-      description="Description will go into a meta tag in <head />"
-    >
+    <Layout>
       <div className="alert alert--danger text--center" role="alert">
         {/* TODO: Fix this close button */}
         {/* <button aria-label="Close" className="close" type="button">

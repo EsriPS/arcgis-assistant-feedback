@@ -1,12 +1,17 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+
+const publicUrl = 'https://guide.assistant.esri-ps.com';
+const publicTitle = 'ArcGIS Assistant User Guide';
+const publicTagline = 'A Swiss Army Knife for ArcGIS';
+
 module.exports = {
   // ****************
   // * Site metadata
   // ****************
 
-  title: 'ArcGIS Assistant User Guide',
-  tagline: 'A Swiss Army Knife for ArcGIS',
-  url: 'https://guide.assistant.esri-ps.com',
+  title: publicTitle,
+  tagline: publicTagline,
+  url: publicUrl,
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -25,7 +30,7 @@ module.exports = {
 
   themeConfig: {
     navbar: {
-      title: 'ArcGIS Assistant User Guide',
+      title: publicTitle,
       items: [
         {
           to: 'docs/',
@@ -85,6 +90,19 @@ module.exports = {
       // copyright: `Built by Esri PS`,
     },
     image: 'img/esri.png',
+    metadatas: [
+      // Facebook Open Graph Tags
+      {name: 'og:type', content: 'website'},
+      {name: 'og:url', content: publicUrl},
+      {name: 'og:title', content: publicTitle},
+      {name: 'og:description', content: publicTagline},
+      {name: 'og:image', content: `${publicUrl}/img/esri.png`},
+      // Twitter Card Tags
+      {name: 'twitter:card', content: 'summary'},
+      {name: 'og:title', content: publicTitle'},
+      {name: 'og:description', content: publicTagline},
+      {name: 'og:image', content: `${publicUrl}/img/esri.png`},
+    ]
   },
   presets: [
     [
