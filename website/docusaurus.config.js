@@ -99,7 +99,7 @@ module.exports = {
       {name: 'og:image', content: `${publicUrl}/img/esri.png`},
       // Twitter Card Tags
       {name: 'twitter:card', content: 'summary'},
-      {name: 'og:title', content: publicTitle'},
+      {name: 'og:title', content: publicTitle},
       {name: 'og:description', content: publicTagline},
       {name: 'og:image', content: `${publicUrl}/img/esri.png`},
     ]
