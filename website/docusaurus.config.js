@@ -2,7 +2,7 @@
 
 const publicUrl = 'https://guide.assistant.esri-ps.com';
 const publicTitle = 'ArcGIS Assistant User Guide';
-const publicTagline = 'A Swiss Army Knife for ArcGIS';
+const publicTagline = 'A Swiss Army Knife for ArcGIS.';
 
 module.exports = {
   // ****************
