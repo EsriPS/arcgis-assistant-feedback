@@ -51,7 +51,10 @@ export default function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
-    <Layout>
+    <Layout
+      title="Home"
+      description="A Swiss Army Knife for ArcGIS"
+    >
       <div className="alert alert--danger text--center" role="alert">
         {/* TODO: Fix this close button */}
         {/* <button aria-label="Close" className="close" type="button">
