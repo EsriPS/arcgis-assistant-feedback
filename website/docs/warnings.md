@@ -2,9 +2,9 @@
 title: The Pointy End
 ---
 
-:::warning Needs media!
+<!-- :::warning Needs media!
 This page is ready for screenshots and/or gifs.
-:::
+::: -->
 
 <!-- :::note Intent of this page
 
