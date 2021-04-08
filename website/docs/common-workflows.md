@@ -40,7 +40,7 @@ References to embeds or linked media (e.g., a Vimeo video, a Flickr image) in th
 ### What if my story has web maps/scenes?
 If the story includes web maps, web scenes, or hosted layers these content items are not duplicated with the story. The new story contains references to these ArcGIS content items. Be sure to consider whether the items are public or private and how that might affect their visibility in the new story.
 
-If you are copying a story across organizations, you’ll need to plan to copy these content items separated and then edit the story JSON to update their itemIDs.
+If you are copying a story across organizations, you’ll need to plan to copy these content items separated and then edit the story JSON to update their itemIDs. The updates are best made to the `draft.json` file [TODO -- add more about how to do this]
 
 If any maps and scenes contain premium/subscriber content, that content will need to be reauthorized when the duplicated story is published. [VERIFY THIS]
 
