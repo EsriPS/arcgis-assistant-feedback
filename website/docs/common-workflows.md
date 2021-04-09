@@ -26,7 +26,7 @@ The best and easiest way to create a copy of one of your stories is to use the *
 Outside of the cases mentioned above, ArcGIS Assistant can be helpful in situations when you need to:
 
 * Copy a story to a different organization
-* Copy a story while preserving its unpublished changes [VERIFY THIS]
+* Copy a story while preserving its unpublished changes
 * Copy several stories at once
 * Copy a story plus other content items at the same time
 * Copy a story from an Enterprise portal to an Online organization
@@ -44,19 +44,20 @@ If you are copying a story across organizations, you’ll need to plan to copy t
 If any maps or scenes contain premium/subscriber content, that content will need to be reauthorized by republishing the story.
 
 ### Anything else I should know?
-* The newly created story will be published, but not shared.
-* When copying a story that has unpublished changes, the unpublished changes will also be available in the copied story.
-* While you may be able to copy a story from Enterprise to Online, it's not likely you'll have success copying from Online to Enterprise.
+* The new story will be private (not shared), even if the original story was shared.
+* The new story will be in the same state as the original story (draft, published, unpublished changes).
+* When copying a story that has unpublished changes, the unpublished changes will be available in the copied story.
+* While you may have success coping a story from Enterprise to Online, copying from Online to Enterprise is not likely to work.
 
-## What about copying classic story maps?
-Copying classic stories is straightforward. All the advice about web maps/scenes above also applies to classic stories.
+### What about copying classic story maps?
+The information above about what's copied and how web maps/scenes need to be handled also applies to classic stories. Classic stories do not have a draft/published state to consider.
 
 ## Editing story data JSON
 
 **WARNING: Editing a story's JSON can break the story. Only do this if you know what you are doing.**
 
-* For ArcGIS StoryMaps stories, edits to the story JSON should be made to the `draft_xxxxxxxx.json` file. 
-* For stories created using one of the classic story map templates, changes are made directly to the item data JSON.
+* For ArcGIS StoryMaps stories, edits to the story JSON should be made to the `draft_xxxxxxxx.json` file and then published using the builder.
+* For stories created using one of the classic templates, changes are made directly to the item data JSON.
 
 ## Copy a Web Experience
 
