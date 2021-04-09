@@ -18,10 +18,10 @@ Many users of Assistant find it after reading about it on a blog, forum post, ch
 
 ## Copy a StoryMap [DRAFT]
 
-It’s easy to copy a StoryMap with ArcGIS Assistant, but there are a few things to be aware of so you know what to expect.
+ArcGIS Assistant can be a helpful tool for copying StoryMaps. However, StoryMaps are a complex item type, so there are cases where Assistant may produce unexpected results. The information below will help you decide when Assistant is the right tool for your copying needs.
 
 ### When should I use Assistant to copy a StoryMap?
-The best and easiest way to create a copy of one of your stories is to use the **duplicate** option in the ArcGIS StoryMaps builder. Administrators can also use this method to copy _any story in their organization_.
+The best and easiest way to create a copy of one of your stories is to use the [**duplicate** option](https://doc.arcgis.com/en/arcgis-storymaps/get-started/faq.htm#anchor13) in the ArcGIS StoryMaps builder. Administrators can also use this method to copy _any story in their organization_.
 
 Outside of the cases mentioned above, ArcGIS Assistant can be helpful in situations when you need to:
 
@@ -29,24 +29,26 @@ Outside of the cases mentioned above, ArcGIS Assistant can be helpful in situati
 * Copy a story while preserving its unpublished changes
 * Copy several stories at once
 * Copy a story plus other content items at the same time
+* Copy a story from one Enterprise portal to another
 * Copy a story from an Enterprise portal to an Online organization
 
 ### What parts of the story get copied?
-Everything stored in the StoryMap item gets copied. This includes all the _text, uploaded images, videos, and audio, express maps, and settings_.
+Everything stored in the StoryMap item gets copied. This includes all the _text; uploaded images, videos, and audio; express maps; and settings_.
 
-References to _embeds_ and _linked media_ (Vimeo videos, Flickr images, etc) point to the same web resources as the original story.
+References to _embeds_ and _linked media_ (Vimeo videos, Flickr images, etc) are preserved and point to the same web resources as the original story.
 
 ### What if my story includes web maps/scenes?
-If the story includes _web maps, web scenes, or hosted layers_ these content items are **not** duplicated with the story. The new story contains _references_ to these ArcGIS content items. Be sure to consider how these referenced items are shared and how that might affect their visibility in the new story.
+_Web maps, web scenes, and/or hosted layers_ (including a map tour built from a feature service) are **not** duplicated when you copy a story using the Assistant. The new story will contain _references_ to those ArcGIS content items from the original story. Be sure to consider how these referenced items are shared and how that might affect their visibility in the new story.
 
 If you are copying a story across organizations, you’ll need to plan to copy these content items separately and then edit the story data JSON to update their itemIDs. See below for information about how to succesfully edit story data.
 
 If any maps or scenes contain premium/subscriber content, that content will need to be reauthorized by republishing the story.
 
-### Anything else I should know?
-* The new story will be private (not shared), even if the original story was shared.
-* The new story will be in the same state as the original story (draft, published, unpublished changes).
-* When copying a story that has unpublished changes, the unpublished changes will be available in the copied story.
+### Anything else I should know about copying StoryMaps?
+* The copy will be private (not shared), even if the original story was shared.
+* The copy will be in the same state as the original story (draft, published, or unpublished changes).
+* When copying a story that has unpublished changes, the published version and the unpublished changes will be available in the copy.
+* Copying between Enterprise portals should generally work when the portals are the same version or if the destination portal's version is later than the origin's.
 * While you may have success coping a story from Enterprise to Online, copying from Online to Enterprise is not likely to work.
 
 ### What about copying classic story maps?
