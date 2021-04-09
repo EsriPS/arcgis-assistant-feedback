@@ -16,42 +16,42 @@ Many users of Assistant find it after reading about it on a blog, forum post, ch
 
 ::: -->
 
-## Copy a StoryMap
+## Copy a StoryMap [DRAFT]
 
-It’s easy to copy a StoryMap with ArcGIS Assistant, but there are a few things to be aware of so you get the result you are expecting.
+It’s easy to copy a StoryMap with ArcGIS Assistant, but there are a few things to be aware of so you know what to expect.
 
 ### When should I use Assistant to copy a StoryMap?
-The best and easiest way to copy of a single story for your own use is to use the duplicate option in the ArcGIS StoryMaps builder. Administrators can copy any story in the organization using this duplicate tool, and non-admins can also copy any story owned by someone else if you have edit permissions through a shared update group.
+The best and easiest way to create a copy of one of your stories is to use the **duplicate** option in the ArcGIS StoryMaps builder. Administrators can also use this method to copy _any story in their organization_.
 
-Beyond the cases mentioned above, ArcGIS Assistant can be helpful in situations where you need to:
+Outside of the cases mentioned above, ArcGIS Assistant can be helpful in situations when you need to:
 
-* Copy/transfer a story to a different organization
+* Copy a story to a different organization
 * Copy a story while preserving its unpublished changes [VERIFY THIS]
-* Copy a large number of stories at once
+* Copy several stories at once
 * Copy a story plus other content items at the same time
 
 ### What parts of the story get copied?
-Everything that’s stored in the StoryMap item gets copied to the new StoryMap item.
+Everything stored in the StoryMap item gets copied. This includes all the _text, uploaded images, videos, and audio, express maps, and settings_.
 
-Copying a story with Assistant creates a new StoryMap item that contains all the text and uploaded images, videos, and audio in the original story. Express maps are also copied directly with the story.
+References to _embeds_ and _linked media_ (Vimeo videos, Flickr images, etc) point to the same web resources as the original story.
 
-References to embeds or linked media (e.g., a Vimeo video, a Flickr image) in the new story point to the same web resources as the original story.
+### What if my story includes web maps/scenes?
+If the story includes _web maps, web scenes, or hosted layers_ these content items are **not** duplicated with the story. The new story contains _references_ to these ArcGIS content items. Be sure to consider how these referenced items are shared and how that might affect their visibility in the new story.
 
-### What if my story has web maps/scenes?
-If the story includes web maps, web scenes, or hosted layers these content items are not duplicated with the story. The new story contains references to these ArcGIS content items. Be sure to consider whether the items are public or private and how that might affect their visibility in the new story.
+If you are copying a story across organizations, you’ll need to plan to copy these content items separately and then edit the story data JSON to update their itemIDs. See below for information about how to succesfully edit story data.
 
-If you are copying a story across organizations, you’ll need to plan to copy these content items separated and then edit the story JSON to update their itemIDs. The updates are best made to the `draft.json` file [TODO -- add more about how to do this]
-
-If any maps and scenes contain premium/subscriber content, that content will need to be reauthorized when the duplicated story is published. [VERIFY THIS]
+If any maps and scenes contain premium/subscriber content, that content will need to be reauthorized by republishing the story. [VERIFY THIS]
 
 ### Anything else I should know?
-A new story will be published, but not shared.
+* The newly created story will be published, but not shared.
+* When copying a story that has unpublished changes, the unpublished changes will also be available in the copied story.
 
-When copying a story that has unpublished changes, the unpublished changes will also be available in the copied story. [VERIFY THIS]
+## Editing story data JSON
 
-## Copy a classic Story Map
+**WARNING: Editing a story's JSON can break the story. Only do this if you know what you are doing.**
 
-To do...
+* For ArcGIS StoryMaps stories, edits to the story JSON should be made to the `draft_xxxxxxxx.json` file. 
+* For stories created using one of the classic story map templates, changes are made directly to the item data JSON.
 
 ## Copy a Web Experience
 
