@@ -29,6 +29,7 @@ Outside of the cases mentioned above, ArcGIS Assistant can be helpful in situati
 * Copy a story while preserving its unpublished changes [VERIFY THIS]
 * Copy several stories at once
 * Copy a story plus other content items at the same time
+* Copy a story from an Enterprise portal to an Online organization
 
 ### What parts of the story get copied?
 Everything stored in the StoryMap item gets copied. This includes all the _text, uploaded images, videos, and audio, express maps, and settings_.
@@ -40,11 +41,15 @@ If the story includes _web maps, web scenes, or hosted layers_ these content ite
 
 If you are copying a story across organizations, you’ll need to plan to copy these content items separately and then edit the story data JSON to update their itemIDs. See below for information about how to succesfully edit story data.
 
-If any maps and scenes contain premium/subscriber content, that content will need to be reauthorized by republishing the story. [VERIFY THIS]
+If any maps or scenes contain premium/subscriber content, that content will need to be reauthorized by republishing the story.
 
 ### Anything else I should know?
 * The newly created story will be published, but not shared.
 * When copying a story that has unpublished changes, the unpublished changes will also be available in the copied story.
+* While you may be able to copy a story from Enterprise to Online, it's not likely you'll have success copying from Online to Enterprise.
+
+## What about copying classic story maps?
+Copying classic stories is straightforward. All the advice about web maps/scenes above also applies to classic stories.
 
 ## Editing story data JSON
 
