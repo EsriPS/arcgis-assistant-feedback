@@ -16,7 +16,7 @@ Many users of Assistant find it after reading about it on a blog, forum post, ch
 
 ::: -->
 
-## Copy a StoryMap [DRAFT]
+## Copy a StoryMap
 
 ArcGIS Assistant can be a helpful tool for copying StoryMaps. However, StoryMaps are a complex item type, so there are cases where Assistant may produce unexpected results. The information below will help you decide when Assistant is the right tool for your copying needs.
 
