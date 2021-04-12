@@ -18,7 +18,7 @@ Many users of Assistant find it after reading about it on a blog, forum post, ch
 
 ## Copy a StoryMap
 
-ArcGIS Assistant can be a helpful tool for copying StoryMaps. However, StoryMaps are a complex item type, so there are cases where Assistant may produce unexpected results. The information below will help you decide when Assistant is the right tool for your copying needs.
+ArcGIS Assistant can be a helpful tool for copying StoryMaps. However, StoryMaps are a complex item type, so there are cases where Assistant may produce unexpected results. The information below will help you decide when Assistant is the right tool for your copying needs. If you have questions, you can post them to the [ArcGIS StoryMaps community site](https://community.esri.com/t5/arcgis-storymaps/ct-p/arcgis-storymaps).
 
 ### When should I use Assistant to copy a StoryMap?
 The best and easiest way to create a copy of one of your stories is to use the [**duplicate** option](https://doc.arcgis.com/en/arcgis-storymaps/get-started/faq.htm#anchor13) in the ArcGIS StoryMaps builder. Administrators can also use this method to copy _any story in their organization_.
@@ -50,13 +50,13 @@ _Web maps, web scenes, and/or hosted layers_ (including a map tour built from a 
 * Most of the information about copying stories also applies to collections and themes.
 
 ### What about copying classic story maps?
-Classic stories do not have a draft/published state to consider, and they don't have express maps. Otherwise, most of the information above about what's copied vs. referenced, and how web maps/scenes need to be handled, also applies to classic stories. 
+Classic stories do not have a draft/published state to consider, and they don't have express maps. Otherwise, most of the information above about what's copied vs. referenced, and how web maps/scenes need to be handled, also applies to classic stories.
 
 ## Editing story data JSON
 
 **WARNING: Editing a story's JSON can break the story. Only do this if you know what you are doing.**
 
-* For ArcGIS StoryMaps stories, edits to the story JSON should be made to the `draft_xxxxxxxx.json` resource and then published using the builder.
+* For ArcGIS StoryMaps stories, edits to the story JSON should typically be made to the `draft_xxxxxxxx.json` resource and then published using the builder.
 * For stories created using one of the classic templates, changes are made directly to the item data JSON.
 
 ## Copy a Web Experience
