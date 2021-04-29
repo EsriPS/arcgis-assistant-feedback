@@ -32,6 +32,8 @@ If you don't have an App ID you can learn about the process to do that in the [A
 
 Once you have registered your application with your ArcGIS Enterprise deployment and recorded the App ID that was provided, enter them into the "Sign in with ArcGIS Enterprise" modal and click Continue.
 
+![Screenshot of signing in with ArcGIS Enterprise](./assets/sign-in-with-enterprise.png)
+
 ## Manage multiple accounts
 
 One of the great features of ArcGIS Assistant is the ability to be signed in to multiple accounts simultaneously. After you've signed in for the first time, you'll see options to add accounts in the Account Drawer.
