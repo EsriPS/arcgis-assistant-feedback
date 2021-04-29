@@ -10,7 +10,7 @@ This page conveys changes made over time to ArcGIS Assistant to end users.
 
 This is the place to check out what's new with Assistant!
 
-## 19 April 2021
+## 29 April 2021
 
 ### Added
 
