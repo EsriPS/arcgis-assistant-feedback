@@ -8,5 +8,6 @@ module.exports = {
     'warnings',
     'common-workflows',
     'faq',
+    'changelog'
   ],
 };
