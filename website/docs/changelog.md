@@ -10,6 +10,20 @@ This page conveys changes made over time to ArcGIS Assistant to end users.
 
 This is the place to check out what's new with Assistant!
 
+## 11 May 2021
+
+### Added
+
+- If your portal isn't reachable for any reason, Assistant will now display a more useful message. This is particularly handy when you forget to connect to VPN 😅
+
+### Fixed
+
+- The recent ArcGIS Online update introduced some great new capabilities to the ArcGIS REST API! Unfortunately it also broke Assistant's Item Copy workflow in a few different ways... but we've resolved those issues and item copying is back in business 🎉
+
+- There was a bug where you couldn't upload an Item Resource with a `/` in the name. It's fixed 🙂
+
+- Sometimes switching to the "My Organization" view wouldn't display any items (when it definitely should have).
+
 ## 30 April 2021
 
 ### Added
