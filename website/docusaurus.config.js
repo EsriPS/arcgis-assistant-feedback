@@ -5,6 +5,9 @@ const publicTitle = 'ArcGIS Assistant User Guide';
 const publicTagline = 'A Swiss Army Knife for ArcGIS.';
 
 module.exports = {
+
+plugins: ['@docusaurus/plugin-ideal-image'],
+
   // ****************
   // * Site metadata
   // ****************
