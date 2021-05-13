@@ -36,6 +36,8 @@ Assistant uses the `id` and `owner` properties to identify the item you're attem
 
 > Attempting to edit either of these properties will result in an error and **no updates will be applied**.
 
+![Error when editing owner property](./assets/description-error.png)
+
 ### Where ArcGIS helps you out
 
 #### Read-only properties

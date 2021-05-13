@@ -13,6 +13,8 @@ If you're interested in the meta of ArcGIS Assistant, read on! If you'd like to 
 
 ## A nod to AGO-Assistant
 
+![Gif comparing a search in AGO-Assistant and in ArcGIS Assistant](./assets/assistant-compare.gif)
+
 If you're familiar with [AGO-Assistant](https://ago-assistant.esri.com/), then you probably know that it has been a ridiculously helpful tool in the belt of ArcGIS power users [since 2013](https://github.com/Esri/ago-assistant/commit/dce17ad0638bf2277f35b963e75bfa99e7460ade). You also know that the ArcGIS system was a very different thing in 2013 compared to today. Over time, AGO-Assistant attracted a few contributors from time-to-time, but when its creator left Esri in 2015 it lost the driving force and started collecting dust. This, coupled with the ever-increasing speed with which the ArcGIS system began to grow, meant it became more and more difficult to update AGO-Assistant to work with an ecosystem very different from the one it was originally designed for.
 
 ## An essential tool for Esri PS

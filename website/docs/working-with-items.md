@@ -54,6 +54,8 @@ If you have editing privileges for an item, you can begin editing by clicking th
 
 Assistant includes [Monaco Editor](https://microsoft.github.io/monaco-editor/), the code editor that powers [VS Code](https://github.com/Microsoft/vscode). This means you can use some pretty advanced features like [Multiple selections](https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor), [Folding](https://code.visualstudio.com/docs/editor/codebasics#_folding), [Go To Symbol](https://code.visualstudio.com/docs/editor/editingevolved#_go-to-symbol), and a lot more.
 
+![Formatting JSON](./assets/format.gif)
+
 ## Working with Item Resources
 
 Certain types of items in ArcGIS may have files associated to them, these are called Item Resources.
@@ -79,6 +81,8 @@ Another workflow ArcGIS Assistant enables is copying items. You can copy items w
 You can start the item copying workflow by clicking "Copy Item" from the [Item Details drawer](finding-items#from-the-item-details-drawer) or from the action menu in the [item list](finding-items#from-the-item-list).
 
 ### Copy destination
+
+![Copy item workflow](./assets/copy.gif)
 
 There are a few important things to know about choosing a copy destination:
 

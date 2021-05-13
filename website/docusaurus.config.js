@@ -5,6 +5,7 @@ const publicTitle = 'ArcGIS Assistant User Guide';
 const publicTagline = 'A Swiss Army Knife for ArcGIS.';
 
 module.exports = {
+
   // ****************
   // * Site metadata
   // ****************
