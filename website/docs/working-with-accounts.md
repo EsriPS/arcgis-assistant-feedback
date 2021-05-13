@@ -55,6 +55,8 @@ There are a couple benefits to signing in with multiple accounts.
 
 ### The active account
 
+![Switch the active account](./assets/change-accounts.gif)
+
 When you're signed in to more than one account, Assistant needs to treat one as the "active account". This account is what drives the ArcGIS Item Browser, allowing you to find content.
 
 If you switch between two active accounts, you'll notice the items on the My Content and My Organization pages will be relevant to the account which is currently active.
@@ -71,3 +73,5 @@ If the active account is an Organization Administrator, you will notice Assistan
 
 1. To browse another user's content
 2. To copy items into another user's account
+
+![View the content of another user in your organization as an admin](./assets/view-user-content.png)
