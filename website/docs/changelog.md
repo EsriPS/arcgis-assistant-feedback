@@ -14,6 +14,8 @@ This is the place to check out what's new with Assistant!
 
 ### Fixed
 
+- We fixed an issue where the wrong REST API root URL was being used when querying for items in "My Organization" which resulted in no items displaying on the Content page. This is fixed now, so go explore your org's content to your heart's content.
+
 - When browsing "ArcGIS Online" from the Content page, you may have seen slightly different results than if you went to the Online app and performed the same search. We've fixed this so you should get the same results now.
 
 - We fixed a couple issues with the pagination controls on the Item Resources page. URLs were getting jumbled and pagination was wonky when there were 100+ pages. Should be all good now!
