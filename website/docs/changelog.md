@@ -8,7 +8,49 @@ This page conveys changes made over time to ArcGIS Assistant to end users.
 
 ::: -->
 
-This is the place to check out what's new with Assistant!
+This is the place to check out what's new with ArcGIS Assistant!
+
+## 13 August 2021
+
+👋🏼 Hi friends, its been a while! Luckily the wait was worth it – this is the biggest update to Assistant yet. Full details below, but here are a few highlights:
+
+[**✏️ You can edit Item Resources in the browser!**](#edit-item-resources)
+
+[**👤 You can now add an account during the copy workflow**](#add-account-while-copying)
+
+[**✨ UI updates including item Grid and List views, a new sort dropdown, and a new Item Browser toolbar**](#item-browser-ui-updates)
+
+### Added
+
+#### ✏️ Edit Item Resources
+
+You can now edit and save `.json` and `.txt` Item Resource files right in the browser.
+
+![Editing an item resource](./assets/changelog/edit-item-resource.png)
+
+#### 👤 Add account while copying
+
+Before this update, you had to login to any and all accounts you wanted to copy between before actually clicking the Copy Item button. Now, you can just start copying and add the accounts you want to copy to from the Copy Item drawer.
+
+![Adding an account while copying](./assets/changelog/add-account-while-copying.png)
+
+#### ✨ Item Browser UI updates
+
+1. Item Browser now has alternate **Grid** and **List** views!
+
+2. Item Browser also has a new **sort dropdown**.
+
+3. You can now **toggle the filter on/off**, and all of these controls (plus the search) have a shiny new home in the Item Browser toolbar.
+
+![The new Item Browser toolbar](./assets/changelog/item-browser-ui.png)
+
+### Fixed
+
+- A recent change made it so the "Created" date for all items incorrectly displayed the current date. This is fixed.
+- Folder sorting was working a little differently in Assistant compared to ArcGIS Online/Enterprise, but now should be the same.
+- There was an issue where copying items was leaving the thumbnail behind. This is fixed now 👍🏼
+- Another case of the "Open in ArcGIS Online" button working incorrectly when signed into an Enterprise account was taken care of.
+- Assistant is set up to support i18n (hit us up if you're interested in contributing some translations!), but the app has always flashed coded property names for a split second before displaying the actual (currently English only) text.
 
 ## 25 May 2021
 
