@@ -10,7 +10,7 @@ This page conveys changes made over time to ArcGIS Assistant to end users.
 
 This is the place to check out what's new with ArcGIS Assistant!
 
-## 13 August 2021
+## 16 August 2021
 
 👋🏼 Hi friends, its been a while! Luckily the wait was worth it – this is the biggest update to Assistant yet. Full details below, but here are a few highlights:
 
@@ -24,7 +24,7 @@ This is the place to check out what's new with ArcGIS Assistant!
 
 #### ✏️ Edit Item Resources
 
-You can now edit and save `.json` and `.txt` Item Resource files right in the browser.
+You can now edit and save `.json` and `.txt` Item Resource files right in the browser. (Addresses [#15](https://github.com/EsriPS/arcgis-assistant-feedback/issues/15))
 
 ![Editing an item resource](./assets/changelog/edit-item-resource.png)
 
@@ -46,6 +46,7 @@ Before this update, you had to login to any and all accounts you wanted to copy 
 
 ### Fixed
 
+- When logged in as an admin, editing another user's items was unreliable. (As discussed in [#16](https://github.com/EsriPS/arcgis-assistant-feedback/discussions/16) and [#17](https://github.com/EsriPS/arcgis-assistant-feedback/issues/17))
 - A recent change made it so the "Created" date for all items incorrectly displayed the current date. This is fixed.
 - Folder sorting was working a little differently in Assistant compared to ArcGIS Online/Enterprise, but now should be the same.
 - There was an issue where copying items was leaving the thumbnail behind. This is fixed now 👍🏼

@@ -72,7 +72,7 @@ You can view and modify (if your account has permission) Item Resources by click
 
 :::caution
 
-Item copying is the newest capability of ArcGIS Assistant and is still actively being developed. Please use caution when using this feature.
+Item copying is a newer capability of ArcGIS Assistant and is still actively being developed. Please use caution when using this feature.
 
 :::
 
@@ -84,10 +84,11 @@ You can start the item copying workflow by clicking "Copy Item" from the [Item D
 
 ![Copy item workflow](./assets/copy.gif)
 
-There are a few important things to know about choosing a copy destination:
+:::tip
 
-1. If you want to copy into a different account, you should first [sign in to both the origin and destination accounts](working-with-accounts#manage-multiple-accounts). In the future you will be able to add a new destination account directly from the copy workflow.
-2. If the destination account is an organization administrator, you will have the option to [choose any user in that organization](admin-privileges#copying-to-another-users-account) as the copy destination.
+If the destination account is an organization administrator, you will have the option to [choose any user in that organization](admin-privileges#copying-to-another-users-account) as the copy destination.
+
+:::
 
 ### Supported item types
 
