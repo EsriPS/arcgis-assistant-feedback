@@ -97,12 +97,16 @@
 
 /* Typography */
 
+.navbar__title {
+  font-weight: 600;
+}
+
 .ital {
   font-style: italic;
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .slim {

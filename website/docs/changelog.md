@@ -22,19 +22,19 @@ This is the place to check out what's new with ArcGIS Assistant!
 
 ### Added
 
-#### ✏️ Edit Item Resources
+#### Edit Item Resources
 
 You can now edit and save `.json` and `.txt` Item Resource files right in the browser. (Addresses [#15](https://github.com/EsriPS/arcgis-assistant-feedback/issues/15))
 
 ![Editing an item resource](./assets/changelog/edit-item-resource.png)
 
-#### 👤 Add account while copying
+#### Add account while copying
 
 Before this update, you had to login to any and all accounts you wanted to copy between before actually clicking the Copy Item button. Now, you can just start copying and add the accounts you want to copy to from the Copy Item drawer.
 
 ![Adding an account while copying](./assets/changelog/add-account-while-copying.png)
 
-#### ✨ Item Browser UI updates
+#### Item Browser UI updates
 
 1. Item Browser now has alternate **Grid** and **List** views!
 
