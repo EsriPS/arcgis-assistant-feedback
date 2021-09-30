@@ -48,10 +48,11 @@ _Web maps, web scenes, and/or hosted layers_ (including a map tour built from a 
 - The new story will be private (not shared), even if the original story was shared.
 - The new story will be in the same state as the original story (draft, published, or unpublished changes).
 - When copying a story that has unpublished changes, the published version and the unpublished changes will be available in the new story.
+- When copying a story between accounts, be sure to initiate the copy from the account that owns the story. If you try to copy a story owned by another account, the duplicate story will not be editable.
 - If any maps or scenes contain premium/subscriber content, that content may need to be reauthorized by republishing the story.
-- Copying between Enterprise portals should generally work when the portals are the same version or if the destination's version is later than the origin's.
 - While you may have success coping a story from Enterprise to Online, copying from Online to Enterprise is not likely to work.
-- Most of the information about copying stories also applies to collections and themes.
+- Copying between Enterprise portals should generally work when the portals are the same version or if the destination's version is later than the origin's.
+- Most of the information on this page about copying stories also applies to collections and themes.
 
 ### What about copying classic story maps?
 
