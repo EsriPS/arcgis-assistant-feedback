@@ -16,7 +16,7 @@ Many users of Assistant find it after reading about it on a blog, forum post, ch
 
 ::: -->
 
-## Copy a StoryMap
+# Copy a StoryMap
 
 ArcGIS Assistant can be a helpful tool for copying StoryMaps. However, StoryMaps are a complex item type, so there are cases where Assistant may produce unexpected results. The information below will help you decide when Assistant is the right tool for your copying needs. If you have questions, you can post them to the [ArcGIS StoryMaps community site](https://community.esri.com/t5/arcgis-storymaps/ct-p/arcgis-storymaps).
 
@@ -58,12 +58,27 @@ _Web maps, web scenes, and/or hosted layers_ (including a map tour built from a 
 
 Classic stories do not have a draft/published state to consider, and they don't have express maps. Otherwise, most of the information above about what's copied vs. referenced, and how web maps/scenes need to be handled, also applies to classic stories.
 
-## Editing story data JSON
+# Editing story data
 
-**WARNING: Editing a story's JSON can break the story. Only do this if you know what you are doing.**
+⚠️ _WARNING: Editing a story's data file can irreparably break your story. Only do this if you know what you are doing._
 
-- For ArcGIS StoryMaps stories, edits to the story JSON should typically be made to the `draft_xxxxxxxx.json` resource and then published using the builder.
-- For stories created using one of the classic templates, changes are made directly to the item data JSON.
+### Before you begin...
+It's always a good idea to take the following precautions before editing story data:
+- **Test your desired changes** on a copy of the original story to make sure A) you don't break your original story and B) you know what you're doing. Testing is also a good way to determine if the changes you are planning will give you the results you expect. The best way to duplicate a story for your own use is from the `...` menu in the story builder.
+- **Create a backup** of the story JSON. Just copy the entire contents of the draft JSON file to a separate text file so you can retrieve them if anything goes wrong. If you break your story, you can use the original contents of the JSON file to restore your story.
+
+Follow the instructions below, depending on the type of story you are editing.
+
+### ArcGIS StoryMaps stories
+Edits to the story data should be made to the `draft_xxxxxxxx.json` resource.
+- After you've edited the draft JSON file, open the story in the story builder to review the changes.
+- Once you verify the results, publish the changes using the story builder so they can be seen in the published story.
+
+
+### Classic Esri Story Maps templates
+⚠️ _WARNING: As of September 2021, the classic templates are in Extended Support ([more info](https://www.esri.com/arcgis-blog/products/arcgis-storymaps/announcements/transition-timeline-for-classic-story-maps-august-2021/)). ArcGIS StoryMaps should be used for all new projects. The information below is provided for use with any existing classic stories you might have a need to edit._
+
+For information on editing story data for classic stories, see [this article on the classic Story Maps Developers' Corner](https://medium.com/story-maps-developers-corner/editing-the-configuration-of-a-story-map-7b984560b7c2).
 
 # Share your workflows!
 
