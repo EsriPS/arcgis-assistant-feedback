@@ -16,7 +16,7 @@ Many users of Assistant find it after reading about it on a blog, forum post, ch
 
 ::: -->
 
-# Copy a StoryMap
+## Copy a StoryMap
 ArcGIS Assistant can be a helpful tool for copying StoryMaps. However, StoryMaps are a complex item type, so there are cases where Assistant may produce unexpected results. The information below will help you decide when Assistant is the right tool for your copying needs. If you have questions, you can post them to the [ArcGIS StoryMaps community site](https://community.esri.com/t5/arcgis-storymaps/ct-p/arcgis-storymaps).
 
 ### When should I use Assistant to copy a StoryMap?
@@ -66,7 +66,7 @@ Copying between Enterprise portals should generally work when the portals are th
 ### What about copying classic story maps?
 Classic stories do not have a draft/published state to consider, and they don't have express maps. Otherwise, most of the information above about what's copied vs. referenced, and how web maps/scenes need to be handled, also applies to classic stories.
 
-# Editing StoryMap data
+## Editing StoryMap data
 ArcGIS Assistant can be a helpful tool for making changes to StoryMaps outside the story builder. However, StoryMaps are a complex item type, and making changes using Assistant can produce unexpected results. The information below will help you decide when Assistant is the right tool for your needs and what precautions you can take to help avoid issues. If you have questions, you can post them to the [ArcGIS StoryMaps community site](https://community.esri.com/t5/arcgis-storymaps/ct-p/arcgis-storymaps).
 
 ⚠️ _WARNING: Editing a story's data file can irreparably break your story. Only do this if you know what you are doing._
@@ -89,5 +89,5 @@ Edits to the story data should be made to the `draft_xxxxxxxx.json` resource.
 
 For information on editing story data for classic stories, see [this article on the classic Story Maps Developers' Corner](https://medium.com/story-maps-developers-corner/editing-the-configuration-of-a-story-map-7b984560b7c2).
 
-# Share your workflows!
+## Share your workflows!
 Click "Edit this page" below to add to this guide page.
