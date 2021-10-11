@@ -58,7 +58,8 @@ _Web maps, web scenes, and/or hosted layers_ (including a map tour built from a 
 
 Classic stories do not have a draft/published state to consider, and they don't have express maps. Otherwise, most of the information above about what's copied vs. referenced, and how web maps/scenes need to be handled, also applies to classic stories.
 
-# Editing story data
+# Editing StoryMap data
+ArcGIS Assistant can be a helpful tool for making changes to StoryMaps outside the story builder. However, StoryMaps are a complex item type, and making changes using Assistant can produce unexpected results. The information below will help you decide when Assistant is the right tool for your needs and what precautions you can take to help avoid issues. If you have questions, you can post them to the [ArcGIS StoryMaps community site](https://community.esri.com/t5/arcgis-storymaps/ct-p/arcgis-storymaps).
 
 ⚠️ _WARNING: Editing a story's data file can irreparably break your story. Only do this if you know what you are doing._
 
