@@ -96,7 +96,7 @@ Copying items in ArcGIS Online/Enterprise is straightforward for some item types
 
 #### Applications (StoryMaps, Web Experiences, Instant Apps, etc.)
 
-Certain application item types depend upon the url property of the item for editing and viewing. Assistant will attempt to update the url property during the copy but may not handle every scenario, especially when copying between ArcGIS Online and ArcGIS Enterprise accounts. Manual review and update of the url property may be needed until the copy functionality is further enhanced.
+[Web application item types](https://developers.arcgis.com/rest/users-groups-and-items/items-and-item-types.htm#ESRI_SECTION2_FDC9D85D0CF4492082434406739EF158) may depend upon the url property of the item for editing and viewing. Assistant will attempt to update the url property during the copy but may not handle every scenario, especially when copying between ArcGIS Online and ArcGIS Enterprise accounts. Manual review and update of the url property may be needed until the copy functionality is further enhanced.
 
 #### Services (Feature Service, Map Service, Image Service, etc.)
 
