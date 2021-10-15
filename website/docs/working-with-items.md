@@ -94,6 +94,10 @@ If the destination account is an organization administrator, you will have the o
 
 Copying items in ArcGIS Online/Enterprise is straightforward for some item types (like [web maps](https://doc.arcgis.com/en/arcgis-online/reference/what-is-web-map.htm)), a little more complex for others (like [Web Experiences](https://www.esri.com/en-us/arcgis/products/arcgis-experience-builder/resources) and [StoryMaps](https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/resources)), and much more complex for yet others (like [feature layers](https://doc.arcgis.com/en/arcgis-online/reference/feature-layers.htm)). For this reason, ArcGIS Assistant does not support copying for all item types, below is a reference.
 
+#### Applications (StoryMaps, Web Experiences, Instant Apps, etc.)
+
+Certain application item types depend upon the url property of the item for editing and viewing. Assistant will attempt to update the url property during the copy but may not handle every scenario, especially when copying between ArcGIS Online and ArcGIS Enterprise accounts. Manual review and update of the url property may be needed until the copy functionality is further enhanced.
+
 #### Services (Feature Service, Map Service, Image Service, etc.)
 
 Assistant currently supports _copying services by reference_. This means the item will be copied, but the underlying data source (e.g. the FeatureServer, MapServer, ImageServer, etc.) will still be referenced. If you're familiar with the old AGO-Assistant, this was referred to as a "Simple" copy.
