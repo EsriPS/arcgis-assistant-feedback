@@ -124,8 +124,9 @@ export default function Home() {
                 <strong>ArcGIS Assistant</strong> is a community-driven app
                 developed by a team from{' '}
                 <a
+                  id="services-link"
                   className="white-links"
-                  href="https://www.esri.com/en-us/arcgis/services/consulting"
+                  href="https://www.esri.com/en-us/arcgis/services/overview"
                   target="_blank"
                 >
                   Esri Professional Services
@@ -133,6 +134,7 @@ export default function Home() {
                 . This app streamlines certain administrative tasks for ArcGIS
                 power users who have an advanced understanding of the
                 <a
+                  id="geoinfo-link"
                   className="white-links"
                   href="https://doc.arcgis.com/en/arcgis-online/reference/geo-info.htm"
                   target="_blank"
