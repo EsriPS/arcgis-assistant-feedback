@@ -122,15 +122,15 @@ export default function Home() {
               <h2 className="slim">About Assistant</h2>
               <p>
                 <strong>ArcGIS Assistant</strong> is a community-driven app
-                developed by a team from{' '}
-                <a
+                developed by a team from Esri Professional Services
+                {/* <a
                   id="services-link"
                   className="white-links"
                   href="https://www.esri.com/en-us/arcgis/services/overview"
                   target="_blank"
                 >
                   Esri Professional Services
-                </a>
+                </a> */}
                 . This app streamlines certain administrative tasks for ArcGIS
                 power users who have an advanced understanding of the
                 <a
