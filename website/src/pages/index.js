@@ -125,7 +125,7 @@ export default function Home() {
                 developed by a team from{' '}
                 <a
                   className="white-links"
-                  href="https://www.esri.com/en-us/arcgis/services/overview"
+                  href="https://www.esri.com/en-us/arcgis/services/consulting"
                   target="_blank"
                 >
                   Esri Professional Services
