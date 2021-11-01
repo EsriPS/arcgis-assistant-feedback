@@ -70,12 +70,6 @@ You can view and modify (if your account has permission) Item Resources by click
 
 ## Copying items
 
-:::caution
-
-Item copying is a newer capability of ArcGIS Assistant and is still actively being developed. Please use caution when using this feature.
-
-:::
-
 Another workflow ArcGIS Assistant enables is copying items. You can copy items with a single account, across accounts in an organization, or even across organizations (including between ArcGIS Online and ArcGIS Enterprise).
 
 You can start the item copying workflow by clicking "Copy Item" from the [Item Details drawer](finding-items#from-the-item-details-drawer) or from the action menu in the [item list](finding-items#from-the-item-list).

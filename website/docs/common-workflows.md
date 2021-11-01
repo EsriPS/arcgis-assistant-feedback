@@ -69,7 +69,9 @@ Classic stories do not have a draft/published state to consider, and they don't 
 ## Editing StoryMap data
 ArcGIS Assistant can be a helpful tool for making changes to StoryMaps outside the story builder. However, StoryMaps are a complex item type, and making changes using Assistant can produce unexpected results. The information below will help you decide when Assistant is the right tool for your needs and what precautions you can take to help avoid issues. If you have questions, you can post them to the [ArcGIS StoryMaps community site](https://community.esri.com/t5/arcgis-storymaps/ct-p/arcgis-storymaps).
 
-⚠️ _WARNING: Editing a story's data file can irreparably break your story. Only do this if you know what you are doing._
+:::caution
+Editing a story's data file can irreparably break your story. Only do this if you know what you are doing.
+:::
 
 ### Before you begin...
 It's always a good idea to take the following precautions before editing story data:
@@ -85,7 +87,10 @@ Edits to the story data should be made to the `draft_xxxxxxxx.json` resource.
 
 
 ### Classic Esri Story Maps templates
-⚠️ _WARNING: As of September 2021, the classic templates are in Extended Support ([more info](https://www.esri.com/arcgis-blog/products/arcgis-storymaps/announcements/transition-timeline-for-classic-story-maps-august-2021/)). ArcGIS StoryMaps should be used for all new projects. The information below is provided for use with any existing classic stories you might have a need to edit._
+
+:::caution
+As of September 2021, the classic templates are in Extended Support ([more info](https://www.esri.com/arcgis-blog/products/arcgis-storymaps/announcements/transition-timeline-for-classic-story-maps-august-2021/)). ArcGIS StoryMaps should be used for all new projects. The information below is provided for use with any existing classic stories you might have a need to edit.
+:::
 
 For information on editing story data for classic stories, see [this article on the classic Story Maps Developers' Corner](https://medium.com/story-maps-developers-corner/editing-the-configuration-of-a-story-map-7b984560b7c2).
 

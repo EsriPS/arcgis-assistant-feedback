@@ -10,6 +10,35 @@ This page conveys changes made over time to ArcGIS Assistant to end users.
 
 This is the place to check out what's new with ArcGIS Assistant!
 
+## 1 November 2021
+
+### Added
+- When copying certain types of items, Assistant will now do its best to update the `url` property for you. Note that this property affects different item types in different ways. This change [is documented here](working-with-items#applications-storymaps-web-experiences-instant-apps-etc), and addresses [#25](https://github.com/EsriPS/arcgis-assistant-feedback/issues/25) and [#26](https://github.com/EsriPS/arcgis-assistant-feedback/issues/26).
+
+- We've added a "Download All" button to the Item Resources page. This handy feature lets you grab a zip file full of all the resources for a particular item.
+
+- You can now edit **XML Item Resources** (just like JSON and text-based) directly in Assistant!
+
+- We've made the "Unable to Access" page a little less frustrating by adding more descriptive text and a handy link back to the Item Browser.
+
+### Changed
+- Assistant **no longer appends "copy"** to the end of items created via the Copy Item workflow.
+
+### Fixed
+- We fixed an issue where logging in with multiple accounts (across organizations) with the same username was not working properly. This addresses [#21](https://github.com/EsriPS/arcgis-assistant-feedback/issues/21).
+
+- There were a few cases where longer item, user, and organization names would cause ugly overlaps, this should be much better now.
+
+- The Item Browser will now automatically refresh after copying an item (this used to require a manual page refresh).
+
+- The "Cannot Access" message (e.g. for Item Details and Item Data) was showing up sometimes when it should not have been.
+
+- The dialog warning that you might lose unsaved changes only worked when editing Item Details and Item Data. Now it works anywhere you might be making edits to an item (including Item Resources).
+
+- We fixed a bug where cancelling the JSON Editor with unsaved edits sometimes wasn't reverting back to the previous state.
+
+- The JSON Editor's warning modal appeared anytime you clicked "Cancel", now it only happens if you've actually made changes.
+
 ## 16 August 2021
 
 👋🏼 Hi friends, its been a while! Luckily the wait was worth it – this is the biggest update to Assistant yet. Full details below, but here are a few highlights:
@@ -83,7 +112,7 @@ Before this update, you had to login to any and all accounts you wanted to copy 
 
 ### Added
 
-- You can now create a new folder right from the Copy Item workflow
+- You can now create a new folder right from the Copy Item workflow.
 
 ### Fixed
 
@@ -91,13 +120,13 @@ Before this update, you had to login to any and all accounts you wanted to copy 
 
 - Enterprise accounts could see ArcGIS Online items, but not view their Item JSON or Resources. You can now fully interact with Online items from your Enterprise account 🕺🏼
 
-- It wasn't possible to sign in to multiple accounts from the same Enterprise Portal because Assistant was a little too eager to use existing sessions
+- It wasn't possible to sign in to multiple accounts from the same Enterprise Portal because Assistant was a little too eager to use existing sessions.
 
-- We squashed a bug preventing you from copying Online items into Enterprise accounts
+- We squashed a bug preventing you from copying Online items into Enterprise accounts.
 
 - Clicking the My Organization tab on the content page sometimes incorrectly displayed no items.
 
-- When signing in to an Enterprise account, there's have a handy tooltip with the URL you need to add as your registered app's Redirect URI... this is now the correct URL 😅 ([#4](https://github.com/EsriPS/arcgis-assistant-feedback/issues/4))
+- When signing in to an Enterprise account, there's have a handy tooltip with the URL you need to add as your registered app's Redirect URI... this is now the correct URL 😅 ([#4](https://github.com/EsriPS/arcgis-assistant-feedback/issues/4)).
 
 #### Item Resources
 

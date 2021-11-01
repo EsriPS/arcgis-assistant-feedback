@@ -16,9 +16,10 @@ This page should catalog the known "sharp edges" of using Assistant. While the R
 
 This guide is meant to point out some potentially destructive things you can do with Assistant. It would be nearly impossible to describe every possible scenario where you could accidentally delete or update something which has unintended consequences.
 
-One of the great things about Assistant is that it provides a bit of a "sandbox" environment to play with the ArcGIS REST API – to test theories, dissect workflows, and generally peek under the hood of ArcGIS.
+One of the great things about Assistant is that it provides a bit of a "sandbox" environment to play with the ArcGIS REST API – to test theories, dissect workflows, and generally peek under the hood of ArcGIS. That said...
 
-**That said, the #1 rule of Assistant is to always test new workflows on throwaway items, and be prepared in case you do break something important.**
+## The #1 rule of Assistant 
+**Always test new workflows on throwaway items, and be prepared in case you do break something important.**
 
 ## Use supported apps!
 
