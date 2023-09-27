@@ -94,10 +94,10 @@ Copying items in ArcGIS Online/Enterprise is straightforward for some item types
 
 #### Services (Feature Service, Map Service, Image Service, etc.)
 
-Assistant currently supports _copying services by reference_. This means the item will be copied, but the underlying data source (e.g. the FeatureServer, MapServer, ImageServer, etc.) will still be referenced. If you're familiar with the old AGO-Assistant, this was referred to as a "Simple" copy.
+Assistant supports _cloning_ for Feature Services. For all other service types, Assistant only supports copying _by reference_. 
 
-:::note
+*Cloning* a service will copy the item and the underlying service and features. This is the default behavior. This is the default behavior for Feature Services.
 
-Cloning or full copying of certain types of services is on our roadmap.
+Note that whenever you clone a Feature Service, regardless of the source, the cloned version will be a Hosted Feature Service.
 
-:::
+*Copying by reference* will make a new item, but the original underlying service will still be referenced.

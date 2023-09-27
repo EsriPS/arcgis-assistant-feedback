@@ -10,6 +10,29 @@ This page conveys changes made over time to ArcGIS Assistant to end users.
 
 This is the place to check out what's new with ArcGIS Assistant!
 
+## 27 September 2023
+
+### Added
+
+- Feature Service Cloning is here! The default behavior when you copy a Feature Service (including layers and tables) is to clone (aka "deep copy" or "full copy") the service. There are lots of ways Feature Services get used in ArcGIS, so there are likely some edge cases that we'll have to cover in a future update.
+
+  A couple notes:
+
+  1. Your Feature Services must have unique names, so if you are copying within the same account, you may need to update the name of the copied service.
+  
+  2. If you would like to copy an item by reference only, there's a new "Copy by reference" checkbox in the copy workflow.
+
+- When you select an item that has a URL (such as a Feature Service), clicking the "View URL" link in the Item Details drawer now appends a token to the URL for you.
+
+### Changed
+
+- We've been working to get Assistant fully onboard with [Calcite Design System](https://developers.arcgis.com/calcite-design-system/components/). This update includes many instances where we've replaced old components. You may notice some subtle differences in colors, icons, fonts, etc... but there shouldn't be any change in functionality or user experience.
+
+### Fixed
+
+- The pagination controls at the bottom of the Item Browser were not working in some cases. They are fixed! You should be able to navigate between pages of content and choose how many items you'd like to be displayed at a time.
+
+
 ## 1 November 2021
 
 ### Added
